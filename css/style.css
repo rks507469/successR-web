@@ -1,0 +1,42 @@
+/* Importing Font Montserrat in the page*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+/* Navbar Tweaks */
+/* Changing the background color to black */
+nav {
+    background-color: #000000;
+}
+/* increasing space beteen the menu items */
+.large-spacing > li{
+    padding-left:30px;
+    padding-right:30px;
+}
+/* Enlarging the selected list item */
+.large-spacing .active {
+    font-weight: 600;
+}
+/* social icon size increased */
+.icon-list {
+    font-size: 20px;
+}
+/* Hero Section */
+/* section Height */
+.hero-section {
+    height: 80vh;
+}
+/* making font bold and incresing size */
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+}
+h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.lead-character {
+    font-weight: 600;
+    font-size: 1.5em;
+}
