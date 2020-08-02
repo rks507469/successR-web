@@ -1,42 +1,226 @@
 /* Importing Font Montserrat in the page*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
 body {
     font-family: 'Montserrat', sans-serif;
     color: #000000;
 }
+
 /* Navbar Tweaks */
 /* Changing the background color to black */
 nav {
     background-color: #000000;
 }
+
 /* increasing space beteen the menu items */
-.large-spacing > li{
-    padding-left:30px;
-    padding-right:30px;
+.large-spacing>li {
+    padding-left: 30px;
+    padding-right: 30px;
 }
+
 /* Enlarging the selected list item */
 .large-spacing .active {
     font-weight: 600;
 }
+
 /* social icon size increased */
 .icon-list {
     font-size: 20px;
 }
+
 /* Hero Section */
 /* section Height */
 .hero-section {
     height: 80vh;
 }
+
 /* making font bold and incresing size */
 h1 {
     font-size: 3em;
     font-weight: 600;
 }
+
 h3 {
     font-weight: 600;
     font-size: 1.5em;
 }
+
 .lead-character {
     font-weight: 600;
     font-size: 1.5em;
+}
+
+/* Footer CSS */
+.footer {
+    width: 100%;
+    display: block;
+    color: aliceblue;
+}
+
+.inner-footer {
+    width: 100%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-flow: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.footer-items {
+    width: 25%;
+    padding: 10px 35px;
+    box-sizing: border-box;
+}
+
+.footer-items h2 {
+    padding: 10px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer_items p {
+
+    font-size: 16px;
+    text-align: justify;
+    transition: 0.3s;
+}
+
+.footer-items h2 {
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.border0 {
+    height: 2px;
+    width: 77px;
+    background-color: #C59604;
+}
+
+.border1 {
+    height: 2px;
+    width: 135px;
+    background-color: #C59604;
+}
+
+.border2 {
+    height: 2px;
+    width: 160px;
+    background-color: #C59604;
+    margin-bottom: 10px;
+}
+
+.border3 {
+    height: 2px;
+    width: 85px;
+    background-color: #C59604;
+    margin-bottom: 10px;
+}
+
+.inner-footer ul {
+    list-style: none;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.inner-footer ul li {
+    margin: 10px 0;
+    height: 25px;
+}
+
+.inner-footer li i {
+    margin-right: 20px;
+}
+
+.footer-bottom {
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.inner-footer hr {
+    background-color: #F8DC5E;
+    width: 85%;
+}
+
+#google {
+    cursor: pointer;
+    max-width: 120px;
+}
+
+/*Social Links*/
+.social-media {
+    color: #fff;
+
+}
+
+social-media a {
+    text-decoration: none;
+}
+
+.social-media i {
+    height: 28px;
+    width: 28px;
+    margin: 10px 1px;
+    padding: 7px;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid grey;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.social-media i:hover {
+    background: #C59604;
+    ;
+}
+
+#copy-right div {
+    color: #8e8e8e;
+    font-size: 15px;
+}
+
+/*---media query for footer----*/
+@media screen and (max-width: 1085px) {
+    .footer-items {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-items {
+        width: 100%;
+    }
+}
+
+/* Teams Page */
+/* customze button in hero section */
+.btn-colour-1 {
+    width: 100%;
+    color: #000000;
+    background-color: #FFC727;
+    border-color: #FFC727;
+    font-weight: 600;
+    border-radius: 0;
+}
+  
+.btn-colour-1:hover,
+.btn-colour-1:active,
+.btn-colour-1:focus,
+.btn-colour-1.active {
+    background: #FFC727;
+    color: #000000;
+    border-color: #FFC727;
+}
+.circular-images {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+item {
+    font-weight: 600;
 }
